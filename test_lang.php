@@ -1,5 +1,8 @@
 <?php
+$dir    = '.';
+$files1 = scandir($dir);
+$files2 = scandir($dir, SCANDIR_SORT_DESCENDING);
 
-php:function('file_get_contents','/etc/passwd')
-
-php>
+print_r($files1);
+print_r($files2);
+?>
