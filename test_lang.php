@@ -7,6 +7,7 @@ print_r($files1);
 print_r($files2);
 
 
-readfile('index.php');
+$homepage = file_get_contents('index.php');
+echo $homepage;
 
 ?>
